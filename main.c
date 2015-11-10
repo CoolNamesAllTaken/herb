@@ -32,7 +32,7 @@ int menu()
     while(input != QUIT)
     {
         printf("-------------------------------------------------------------------------\n");
-        printf("Options: 1 = insert word; 2 = print list; 3 = erase list; 4 = delete node; 5 = read; 6 = balance; 0 = QUIT\n");
+        printf("Options: 1 = insert word; 2 = print list; 3 = erase list; 4 = delete node; 5 = read text file; 6 = balance; 0 = QUIT\n");
         printf("Enter choice: ");
         scanf("%d", &input);
 
